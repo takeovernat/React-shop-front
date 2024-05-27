@@ -13,9 +13,9 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route path="/React-shop-front/shop" element={<Shop />} />
-            <Route path="React-shop-front/contact" element={<Contact />} />
-            <Route path="React-shop-front/cart" element={<Cart />} />
+            <Route path="/shop" element={<Shop />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/cart" element={<Cart />} />
           </Routes>
         </Router>
       </ShopContextProvider>
